@@ -1,35 +1,104 @@
-import requests
-import json
-import os
-
-api = "https://api.riigikogu.ee/api/usergroups"
-lubatud_fraktsioonid = ["Eesti 200 fraktsioon", "Eesti Keskerakonna fraktsioon", "Eesti Reformierakonna fraktsioon", "Sotsiaaldemokraatliku Erakonna fraktsioon", "Eesti Konservatiivse Rahvaerakonna fraktsioon", "Isamaa fraktsioon"]
-
-def json_faili_loomine(API_URL, failinimi):
-    response = requests.get(API_URL)
-    data = response.json()
-    andmed = []
-    with open(failinimi, "w") as f:
-        for i in range(len(data)):
-            if data[i]["name"] in lubatud_fraktsioonid:
-                andmed.append(data[i])
-
-        json.dump(andmed, f, indent=4)
-
-def fraktsiooni_liikmed(API_URL):
-    response = requests.get(API_URL)
-    andmed = response.json()
-    for i in range(len(andmed)):
-        fraktsiooni_uuid = andmed[i]["uuid"]
-        response = requests.get("https://api.riigikogu.ee/api/usergroups/" + fraktsiooni_uuid)
-        data = response.json()
-        l6pp = []
-        print(data)
-        with open(f"fraktsioonid\{andmed[i]['name']}.json", "w") as f:
-            """            for j in range(len(data["members"])):
-                l6pp.append(data["members"][j])"""
-            json.dump(data, f, indent=4)
-
-json_faili_loomine(api, "fraktsioonid.json")
-
-fraktsiooni_liikmed(api)
+[
+    {
+        "uuid": "e4bf6970-f928-4230-961c-615cc54118f9",
+        "name": "Eesti 200 fraktsioon",
+        "shortName": "E200",
+        "type": {
+            "code": "FRAKTSIOON",
+            "value": "fraktsioon"
+        },
+        "colorHex": "ffffff",
+        "secretariatName": "Eesti 200 fraktsiooni sekretariaat",
+        "active": true,
+        "_links": {
+            "self": {
+                "href": "https://api.riigikogu.ee/api/usergroups/e4bf6970-f928-4230-961c-615cc54118f9?lang=ET"
+            }
+        }
+    },
+    {
+        "uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+        "name": "Eesti Keskerakonna fraktsioon",
+        "shortName": "KESK",
+        "type": {
+            "code": "FRAKTSIOON",
+            "value": "fraktsioon"
+        },
+        "colorHex": "3BAC7B",
+        "secretariatName": "Eesti Keskerakonna fraktsiooni sekretariaat",
+        "active": true,
+        "_links": {
+            "self": {
+                "href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+            }
+        }
+    },
+    {
+        "uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+        "name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+        "shortName": "EKRE",
+        "type": {
+            "code": "FRAKTSIOON",
+            "value": "fraktsioon"
+        },
+        "colorHex": "2A3DA0",
+        "secretariatName": "Eesti Konservatiivse Rahvaerakonna fraktsiooni sekretariaat",
+        "active": true,
+        "_links": {
+            "self": {
+                "href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+            }
+        }
+    },
+    {
+        "uuid": "8772fd6f-3197-6a53-2ffc-8c4d63407d1e",
+        "name": "Eesti Reformierakonna fraktsioon",
+        "shortName": "REF",
+        "type": {
+            "code": "FRAKTSIOON",
+            "value": "fraktsioon"
+        },
+        "colorHex": "FFC000",
+        "secretariatName": "Eesti Reformierakonna fraktsiooni sekretariaat",
+        "active": true,
+        "_links": {
+            "self": {
+                "href": "https://api.riigikogu.ee/api/usergroups/8772fd6f-3197-6a53-2ffc-8c4d63407d1e?lang=ET"
+            }
+        }
+    },
+    {
+        "uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+        "name": "Isamaa fraktsioon",
+        "shortName": "I",
+        "type": {
+            "code": "FRAKTSIOON",
+            "value": "fraktsioon"
+        },
+        "colorHex": "6FABD4",
+        "secretariatName": "Isamaa fraktsiooni sekretariaat",
+        "active": true,
+        "_links": {
+            "self": {
+                "href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+            }
+        }
+    },
+    {
+        "uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+        "name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+        "shortName": "SDE",
+        "type": {
+            "code": "FRAKTSIOON",
+            "value": "fraktsioon"
+        },
+        "colorHex": "E35558",
+        "secretariatName": "Sotsiaaldemokraatliku Erakonna fraktsiooni sekretariaat",
+        "active": true,
+        "_links": {
+            "self": {
+                "href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+            }
+        }
+    }
+]

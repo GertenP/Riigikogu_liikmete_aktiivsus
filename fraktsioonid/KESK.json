@@ -1,0 +1,370 @@
+{
+    "uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+    "name": "Eesti Keskerakonna fraktsioon",
+    "shortName": "KESK",
+    "type": {
+        "code": "FRAKTSIOON",
+        "value": "fraktsioon"
+    },
+    "colorHex": "3BAC7B",
+    "secretariatName": "Eesti Keskerakonna fraktsiooni sekretariaat",
+    "active": true,
+    "members": [
+        {
+            "uuid": "1839253a-aec0-4019-995a-1c031db8fd10",
+            "fullName": "Lauri Laats",
+            "lastName": "Laats",
+            "firstName": "Lauri",
+            "active": true,
+            "email": "lauri.laats@riigikogu.ee",
+            "phone": "+372 6316568",
+            "photo": {
+                "uuid": "727d5144-5afe-4fbe-9c0e-bd2219f03d59",
+                "fileName": "LAURI LAATS100.jpg",
+                "fileExtension": "jpg",
+                "_links": {
+                    "download": {
+                        "href": "https://api.riigikogu.ee/api/files/727d5144-5afe-4fbe-9c0e-bd2219f03d59/download"
+                    },
+                    "self": {
+                        "href": "https://api.riigikogu.ee/api/files/727d5144-5afe-4fbe-9c0e-bd2219f03d59"
+                    }
+                }
+            },
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2024-03-06",
+                "endDate": null,
+                "role": {
+                    "code": "ESIMEES",
+                    "value": "esimees"
+                },
+                "jobTitle": {
+                    "code": "RIIGIKOGU_LIIGE",
+                    "value": "Riigikogu liige"
+                }
+            },
+            "upn": "llaats@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/1839253a-aec0-4019-995a-1c031db8fd10"
+                },
+                "details": {
+                    "href": "https://api.riigikogu.ee/api/plenary-members/1839253a-aec0-4019-995a-1c031db8fd10?includeInactive=false&lang=ET"
+                }
+            }
+        },
+        {
+            "uuid": "80eac2f1-bb1e-4996-ac5a-4c3dba91bade",
+            "fullName": "Vadim Belobrovtsev",
+            "lastName": "Belobrovtsev",
+            "firstName": "Vadim",
+            "active": true,
+            "email": "vadim.belobrovtsev@riigikogu.ee",
+            "phone": "+372 6316614",
+            "photo": {
+                "uuid": "dcbcf3b9-e381-4e22-a855-8014b75b37cf",
+                "fileName": "cFEP_1398.jpg",
+                "fileExtension": "jpg",
+                "_links": {
+                    "download": {
+                        "href": "https://api.riigikogu.ee/api/files/dcbcf3b9-e381-4e22-a855-8014b75b37cf/download"
+                    },
+                    "self": {
+                        "href": "https://api.riigikogu.ee/api/files/dcbcf3b9-e381-4e22-a855-8014b75b37cf"
+                    }
+                }
+            },
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2023-04-11",
+                "endDate": null,
+                "role": {
+                    "code": "ASEESIMEES",
+                    "value": "aseesimees"
+                },
+                "jobTitle": {
+                    "code": "RIIGIKOGU_LIIGE",
+                    "value": "Riigikogu liige"
+                }
+            },
+            "upn": "vbelobrovtsev@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/80eac2f1-bb1e-4996-ac5a-4c3dba91bade"
+                },
+                "details": {
+                    "href": "https://api.riigikogu.ee/api/plenary-members/80eac2f1-bb1e-4996-ac5a-4c3dba91bade?includeInactive=false&lang=ET"
+                }
+            }
+        },
+        {
+            "uuid": "0ef9e676-8ee6-481a-ae29-e1ce75af5aaa",
+            "fullName": "Aleksei Jevgrafov",
+            "lastName": "Jevgrafov",
+            "firstName": "Aleksei",
+            "active": true,
+            "email": "aleksei.jevgrafov@riigikogu.ee",
+            "phone": "+372 6316305",
+            "photo": {
+                "uuid": "c69699d3-c8de-4c96-a841-7a8f7c344e76",
+                "fileName": "ALEKSEI JEVGRAFOV100.png",
+                "fileExtension": "png",
+                "_links": {
+                    "download": {
+                        "href": "https://api.riigikogu.ee/api/files/c69699d3-c8de-4c96-a841-7a8f7c344e76/download"
+                    },
+                    "self": {
+                        "href": "https://api.riigikogu.ee/api/files/c69699d3-c8de-4c96-a841-7a8f7c344e76"
+                    }
+                }
+            },
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2023-04-11",
+                "endDate": null,
+                "role": {
+                    "code": "LIIGE",
+                    "value": "liige"
+                },
+                "jobTitle": {
+                    "code": "RIIGIKOGU_LIIGE",
+                    "value": "Riigikogu liige"
+                }
+            },
+            "upn": "ajevgrafov@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/0ef9e676-8ee6-481a-ae29-e1ce75af5aaa"
+                },
+                "details": {
+                    "href": "https://api.riigikogu.ee/api/plenary-members/0ef9e676-8ee6-481a-ae29-e1ce75af5aaa?includeInactive=false&lang=ET"
+                }
+            }
+        },
+        {
+            "uuid": "a62b7530-a1fb-4c0b-b041-f10c2cfaa31a",
+            "fullName": "Andrei Korobeinik",
+            "lastName": "Korobeinik",
+            "firstName": "Andrei",
+            "active": true,
+            "email": "andrei.korobeinik@riigikogu.ee",
+            "phone": "+372 6316445",
+            "photo": {
+                "uuid": "2cabcac0-c944-4f15-8b3c-dc783f2ceacc",
+                "fileName": "cFEP_1191.jpg",
+                "fileExtension": "jpg",
+                "_links": {
+                    "download": {
+                        "href": "https://api.riigikogu.ee/api/files/2cabcac0-c944-4f15-8b3c-dc783f2ceacc/download"
+                    },
+                    "self": {
+                        "href": "https://api.riigikogu.ee/api/files/2cabcac0-c944-4f15-8b3c-dc783f2ceacc"
+                    }
+                }
+            },
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2024-03-06",
+                "endDate": null,
+                "role": {
+                    "code": "LIIGE",
+                    "value": "liige"
+                },
+                "jobTitle": {
+                    "code": "RIIGIKOGU_LIIGE",
+                    "value": "Riigikogu liige"
+                }
+            },
+            "upn": "akorobeinik@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/a62b7530-a1fb-4c0b-b041-f10c2cfaa31a"
+                },
+                "details": {
+                    "href": "https://api.riigikogu.ee/api/plenary-members/a62b7530-a1fb-4c0b-b041-f10c2cfaa31a?includeInactive=false&lang=ET"
+                }
+            }
+        },
+        {
+            "uuid": "04510d7c-b12a-48aa-8402-80b0efb114a6",
+            "fullName": "Anastassia Kovalenko-K\u00f5lvart",
+            "lastName": "Kovalenko-K\u00f5lvart",
+            "firstName": "Anastassia",
+            "active": true,
+            "email": "anastassia.kovalenko-kolvart@riigikogu.ee",
+            "phone": "+372 6316497",
+            "photo": {
+                "uuid": "094d764f-eea6-4a53-84f6-28ee97ae5aba",
+                "fileName": "Kovalenko140.jpg",
+                "fileExtension": "jpg",
+                "_links": {
+                    "download": {
+                        "href": "https://api.riigikogu.ee/api/files/094d764f-eea6-4a53-84f6-28ee97ae5aba/download"
+                    },
+                    "self": {
+                        "href": "https://api.riigikogu.ee/api/files/094d764f-eea6-4a53-84f6-28ee97ae5aba"
+                    }
+                }
+            },
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2023-04-11",
+                "endDate": null,
+                "role": {
+                    "code": "LIIGE",
+                    "value": "liige"
+                },
+                "jobTitle": {
+                    "code": "RIIGIKOGU_LIIGE",
+                    "value": "Riigikogu liige"
+                }
+            },
+            "upn": "akovalenko@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/04510d7c-b12a-48aa-8402-80b0efb114a6"
+                },
+                "details": {
+                    "href": "https://api.riigikogu.ee/api/plenary-members/04510d7c-b12a-48aa-8402-80b0efb114a6?includeInactive=false&lang=ET"
+                }
+            }
+        },
+        {
+            "uuid": "fe6fcd51-6911-4dc6-9232-ddeac5ec1155",
+            "fullName": "Aleksandr T\u0161apl\u00f5gin",
+            "lastName": "T\u0161apl\u00f5gin",
+            "firstName": "Aleksandr",
+            "active": true,
+            "email": "aleksandr.tsaplogin@riigikogu.ee",
+            "phone": "+372 6316639",
+            "photo": {
+                "uuid": "43c65805-01bb-4b66-9ca1-97fcdaafee3d",
+                "fileName": "cFEP_0925.jpg",
+                "fileExtension": "jpg",
+                "_links": {
+                    "download": {
+                        "href": "https://api.riigikogu.ee/api/files/43c65805-01bb-4b66-9ca1-97fcdaafee3d/download"
+                    },
+                    "self": {
+                        "href": "https://api.riigikogu.ee/api/files/43c65805-01bb-4b66-9ca1-97fcdaafee3d"
+                    }
+                }
+            },
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2023-04-11",
+                "endDate": null,
+                "role": {
+                    "code": "LIIGE",
+                    "value": "liige"
+                },
+                "jobTitle": {
+                    "code": "RIIGIKOGU_LIIGE",
+                    "value": "Riigikogu liige"
+                }
+            },
+            "upn": "atsaplogin@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/fe6fcd51-6911-4dc6-9232-ddeac5ec1155"
+                },
+                "details": {
+                    "href": "https://api.riigikogu.ee/api/plenary-members/fe6fcd51-6911-4dc6-9232-ddeac5ec1155?includeInactive=false&lang=ET"
+                }
+            }
+        },
+        {
+            "uuid": "3655c844-93bf-475c-babf-0a5b10732d41",
+            "fullName": "Greta Silberg",
+            "lastName": "Silberg",
+            "firstName": "Greta",
+            "active": true,
+            "email": "greta.silberg@riigikogu.ee",
+            "phone": "+372 6316637",
+            "photo": null,
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2023-04-11",
+                "endDate": null,
+                "role": {
+                    "code": "TOOTAJA",
+                    "value": "t\u00f6\u00f6taja"
+                },
+                "jobTitle": {
+                    "code": "NOUNIK",
+                    "value": "n\u00f5unik"
+                }
+            },
+            "upn": "gsilberg@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/3655c844-93bf-475c-babf-0a5b10732d41"
+                }
+            }
+        },
+        {
+            "uuid": "045d1464-10b4-4fe7-bbf5-ea9aa38bb6a0",
+            "fullName": "Katrin Josua",
+            "lastName": "Josua",
+            "firstName": "Katrin",
+            "active": true,
+            "email": "katrin.josua@riigikogu.ee",
+            "phone": "+372 6316668",
+            "photo": null,
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2023-04-11",
+                "endDate": null,
+                "role": {
+                    "code": "TOOTAJA",
+                    "value": "t\u00f6\u00f6taja"
+                },
+                "jobTitle": {
+                    "code": "MEEDIANOUNIK",
+                    "value": "meedian\u00f5unik"
+                }
+            },
+            "upn": "kjosua@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/045d1464-10b4-4fe7-bbf5-ea9aa38bb6a0"
+                }
+            }
+        },
+        {
+            "uuid": "a356b9a7-693b-418a-82fb-b5694518b814",
+            "fullName": "Andres Kalvik",
+            "lastName": "Kalvik",
+            "firstName": "Andres",
+            "active": true,
+            "email": "andres.kalvik@riigikogu.ee",
+            "phone": "+372 5346 3948",
+            "photo": null,
+            "membership": {
+                "membershipNumber": 15,
+                "startDate": "2023-04-11",
+                "endDate": null,
+                "role": {
+                    "code": "TOOTAJA",
+                    "value": "t\u00f6\u00f6taja"
+                },
+                "jobTitle": {
+                    "code": "MEEDIANOUNIK",
+                    "value": "meedian\u00f5unik"
+                }
+            },
+            "upn": "akalvik@riigikogu.ee",
+            "_links": {
+                "self": {
+                    "href": "https://api.riigikogu.ee/api/contacts/a356b9a7-693b-418a-82fb-b5694518b814"
+                }
+            }
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+        }
+    }
+}
